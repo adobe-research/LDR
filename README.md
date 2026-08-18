@@ -2,7 +2,7 @@
 
 [![Page](https://img.shields.io/badge/Project-Page-pink?logo=googlechrome&logoColor=white)](https://lat-dyn-reason.github.io/)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.09926)
-[![GitHub](https://img.shields.io/github/stars/Lat-Dyn-Reason/Lat-Dyn-Reason?style=default&label=GitHub%20★&logo=github)](https://github.com/adobe-research/LDR)
+[![GitHub](https://img.shields.io/github/stars/adobe-research/LDR?style=default&label=GitHub%20★&logo=github)](https://github.com/adobe-research/LDR)
 [![Data](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Data-yellow)](https://huggingface.co/datasets/haodongli/LDR)
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-yellow)](https://huggingface.co/haodongli/LDR)
 
