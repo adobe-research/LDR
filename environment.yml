@@ -1,0 +1,32 @@
+# Copyright © 2026 Adobe Inc. and its licensors. All rights reserved.
+#
+# This file constitutes Licensed Materials under the Adobe Research License.
+# Use is limited to noncommercial research purposes.
+# See the LICENSE file at the project root for the complete license terms and disclaimer.
+#
+# Conda environment for LDR (exported from the environment used to produce/verify the release).
+# CUDA 12.1 build of PyTorch 2.4.0. Create with:  conda env create -f environment.yml && conda activate ldr
+name: ldr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch==2.4.0
+      - torchvision==0.19.0
+      - diffusers==0.30.0
+      - transformers==4.44.0
+      - accelerate==0.33.0
+      - timm==1.0.27
+      - safetensors==0.8.0
+      - huggingface_hub==0.36.2
+      - numpy==1.26.4
+      - h5py==3.16.0
+      - imageio==2.37.3
+      - imageio-ffmpeg==0.6.0
+      - opencv-python-headless==4.11.0.86
+      - pandas==2.2.3
+      - pillow==12.2.0
+      - tqdm==4.70.0
