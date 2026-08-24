@@ -29,7 +29,7 @@
 1. Clone the repository
 ```bash
 git clone https://github.com/adobe-research/LDR.git
-cd Lat-Dyn-Reason
+cd LDR
 ```
 2. Install dependencies
 ```bash
